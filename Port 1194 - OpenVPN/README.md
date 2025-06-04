@@ -1,17 +1,8 @@
 # OpenVPN (Session Initialisation P_CONTROL_HARD_RESET_CLIENT_V2)
 
-## Port: 1194
+端口: 1194
+协议: UDP
+收散倍数: 2x
+可用反射器数量: 未知
 
-## Proto: UDP
-
-## Amplification factor: 2x
-
----
-
-### Mitigation Notes
-
-- Uses 1 byte opcode since the rest of the packet is just messageID and sessionID which isnt needed for initial connection.
-
-### Documentation
-
-- https://build.openvpn.net/doxygen/network_protocol.html
+此目录包含关于OpenVPN (Session Initialisation P_CONTROL_HARD_RESET_CLIENT_V2) 协议的收散利用示例以及相关脚本。
