@@ -1,9 +1,8 @@
 # QOTD (Quote of the day)
 
-## Port: 17
+端口: 17
+协议: UDP
+收散倍数: 30-100x
+可用反射器数量: 未知
 
-## Proto: UDP
-
-## Amplification factor: 30-100x
-
----
+此目录包含关于QOTD (Quote of the day) 协议的收散利用示例以及相关脚本。

@@ -1,12 +1,8 @@
 # IPSec Internet Key Exchange (IPSec-IKE)
 
-## Port: 500
+端口: 500
+协议: UDP
+收散倍数: 4-5x
+可用反射器数量: 未知
 
-## Proto: UDP
-
-## Amplification factor: 4-5x
-
----
-
-1100000000000000000000000000000001
-Length dependant response.
+此目录包含关于IPSec Internet Key Exchange (IPSec-IKE) 协议的收散利用示例以及相关脚本。
